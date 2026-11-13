@@ -1,13 +1,10 @@
 package main
 
-import (
-	"Go-Practice-Problems/problems"
-	"fmt"
-)
+import "Go-Practice-Problems/problems"
 
 func main() {
 
-	//Find duplicate string
+	/*//Find duplicate string
 	devices := []string{
 		"device-1",
 		"device-2",
@@ -45,7 +42,7 @@ func main() {
 		{8, 10},
 		{15, 18},
 	}*/
-	intervals := [][]int{
+	/*intervals := [][]int{
 		{1, 10},
 		{2, 3},
 		{4, 5},
@@ -53,4 +50,17 @@ func main() {
 	}
 
 	problems.MergeOverlap(intervals)
+	input := "Hello world hello Sai sai"
+	problems.CountWords(input)
+	inputa := []int{2, 3, 4}
+	problems.SquareReadings(inputa, 2)*/
+
+	/*data := []problems.Input{
+		//{"device1", 100},
+		//{"device2", 200},
+		//{"device1", 150},
+	}
+	problems.ProcessData(data)*/
+	inputa := []int{2, 3, 4}
+	problems.WorkerSquareReadings(inputa, 2)
 }
